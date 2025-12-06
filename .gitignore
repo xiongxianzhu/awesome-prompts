@@ -1,0 +1,219 @@
+# Awesome Prompts .gitignore
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 编辑器和IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Node.js 相关
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+*.old
+
+# 输出和构建文件
+dist/
+build/
+out/
+*.out
+*.exe
+*.app
+
+# 依赖和包管理
+bower_components/
+.npm/
+.yarn-integrity
+
+# 配置文件（如果包含敏感信息）
+config.local.*
+secrets.*
+*.key
+*.pem
+*.p12
+*.crt
+
+# 缓存
+.cache/
+.parcel-cache/
+.eslintcache
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+coverage.xml
+*.lcov
+
+# 文档生成
+docs/build/
+docs/_build/
+site/
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 大文件和媒体
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+
+# AI生成的临时内容
+ai-output/
+generated-content/
+temp-prompts/
+
+# 个人工作区
+personal/
+private/
+local-examples/
+
+# 备份和归档
+backups/
+archive/
+old-versions/
+
+# 特定于AI工具的忽略
+# Claude Desktop
+.claude/
+
+# ChatGPT相关
+chatgpt-conversations/
+openai-sessions/
+
+# 其他AI工具
+gemini-chats/
+copilot-sessions/
+
+# GitHub相关（除了我们需要的模板文件）
+.github/workflows/
+.github/dependabot.yml
+
+# 文档和草稿
+drafts/
+wip/
+todo/
+notes/
+
+# 脚本输出
+script-output/
+logs/
+reports/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 本地开发
+dev/
+local/
+sandbox/
+
+# IDE设置
+*.sublime-project
+*.sublime-workspace
+
+# Atom编辑器
+.atom/
+.branch
+
+# Vim编辑器
+.netrwhist
+
+# Emacs编辑器
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# 项目特定的忽略
+# 如果你有测试脚本产生的输出
+test-output/
+validation-results/
+
+# 如果你有自动化工具生成的临时文件
+auto-generated/
+temp-generated/
+
+# 本地提示词测试结果
+prompt-tests/
+test-results/
+
+# 个人提示词集合（不提交到公共仓库）
+my-prompts/
+personal-prompts/
+private-prompts/
+
+# API密钥和配置
+api-keys.json
+config.json
+secrets.json
+
+# 用户特定的示例
+user-examples/
+my-examples/
+
+# 国际化相关临时文件
+*.translation.*
+translations/temp/
+i18n-temp/
+translation-cache/
+
+# 翻译工具临时文件
+.pot-cache
+*.po~
+translation-backups/
