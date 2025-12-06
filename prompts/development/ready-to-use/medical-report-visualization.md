@@ -50,6 +50,7 @@
 * Flask（现代结构）
 * SQLAlchemy
 * Flask-Migrate
+* flask-restful（接口采用CBV而不是FBV）
 * Marshmallow
 * JWT
 * SM4 加密（登录 & 修改密码必须强制）
@@ -66,6 +67,7 @@
 * Ant Design **v6**
 * Redux Toolkit / Zustand
 * React Router v7
+* vite 创建react项目
 * i18next 国际化（必须支持 zh-CN/英文，默认 zh-CN）
 * 多主题切换（至少三套）
 * 响应式布局
@@ -74,6 +76,9 @@
 ## ✔ 用户端前端
 
 * React 19
+* Tailwind CSS
+* Next.js
+* vite 创建react项目
 * 可视化库：ECharts / Ant Design Charts
 * 可视化模板编辑器
 * 模板 CRUD
